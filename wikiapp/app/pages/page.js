@@ -4,7 +4,9 @@ import ImageWithText from "/app/components/ImageWithText.js";
 function HomePage() {
     return( <div style={{margin: "30px"}}>
     <h2 style={{margin:'15px'}}>Wiktoria Duciak</h2>
-    <ItemList/>
+    <ItemList
+    item="5"
+    index="5"/>
     <BlokTxt
     heading="Heading"
     content="content"
