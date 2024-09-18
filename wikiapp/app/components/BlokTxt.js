@@ -1,4 +1,4 @@
 function BlokTxt({ heading, content }) {
     return (
-      <div style={{ width: '200px', height: '150px' }}><h2>Pierwszy tekst</h2><p>Paragraf</p></div>  );
+      <div style={{ width: '200px', height: '200px' }}><h1>{heading}</h1><p>{content}</p></div>  );
   }export default BlokTxt;
